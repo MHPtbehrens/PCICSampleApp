@@ -403,7 +403,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PCICSampleApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.porschedigitallab.PCICSampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.porsche.PCICSampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -414,7 +414,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PCICSampleApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.porschedigitallab.PCICSampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.porsche.PCICSampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -484,6 +484,7 @@
 				6A3AD63A1D7DBE6000148989 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A3AD63B1D7DBE6000148989 /* Build configuration list for PBXNativeTarget "PCICSampleAppTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +493,7 @@
 				6A3AD63D1D7DBE6000148989 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A3AD63E1D7DBE6000148989 /* Build configuration list for PBXNativeTarget "PCICSampleAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +502,7 @@
 				6A3AD6401D7DBE6000148989 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
