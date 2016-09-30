@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A07A66F1D9E714600206F99 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A28A4A91D9E666F00A61986 /* Calculator.swift */; };
+		6A28A4AA1D9E666F00A61986 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A28A4A91D9E666F00A61986 /* Calculator.swift */; };
+		6A28A4AD1D9E680E00A61986 /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A28A4AC1D9E680E00A61986 /* CalculatorTests.swift */; };
 		6A3AD6141D7DBE6000148989 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3AD6131D7DBE6000148989 /* AppDelegate.swift */; };
 		6A3AD6161D7DBE6000148989 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3AD6151D7DBE6000148989 /* ViewController.swift */; };
 		6A3AD6191D7DBE6000148989 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A3AD6171D7DBE6000148989 /* Main.storyboard */; };
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A28A4A91D9E666F00A61986 /* Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		6A28A4AC1D9E680E00A61986 /* CalculatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorTests.swift; sourceTree = "<group>"; };
 		6A3AD6101D7DBE6000148989 /* PCICSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PCICSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A3AD6131D7DBE6000148989 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A3AD6151D7DBE6000148989 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +108,7 @@
 				6A3AD61A1D7DBE6000148989 /* Assets.xcassets */,
 				6A3AD61C1D7DBE6000148989 /* LaunchScreen.storyboard */,
 				6A3AD61F1D7DBE6000148989 /* Info.plist */,
+				6A28A4A91D9E666F00A61986 /* Calculator.swift */,
 			);
 			path = PCICSampleApp;
 			sourceTree = "<group>";
@@ -110,6 +116,7 @@
 		6A3AD6271D7DBE6000148989 /* PCICSampleAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				6A28A4AC1D9E680E00A61986 /* CalculatorTests.swift */,
 				6A3AD6281D7DBE6000148989 /* PCICSampleAppTests.swift */,
 				6A3AD62A1D7DBE6000148989 /* Info.plist */,
 			);
@@ -259,6 +266,7 @@
 			files = (
 				6A3AD6161D7DBE6000148989 /* ViewController.swift in Sources */,
 				6A3AD6141D7DBE6000148989 /* AppDelegate.swift in Sources */,
+				6A28A4AA1D9E666F00A61986 /* Calculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +275,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A3AD6291D7DBE6000148989 /* PCICSampleAppTests.swift in Sources */,
+				6A28A4AD1D9E680E00A61986 /* CalculatorTests.swift in Sources */,
+				6A07A66F1D9E714600206F99 /* Calculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +418,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.porsche.PCICSampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "8495b365-5b1d-4ad2-b7a8-de0c2f2bf128";
+				SWIFT_INCLUDE_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -421,6 +432,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.porsche.PCICSampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "8495b365-5b1d-4ad2-b7a8-de0c2f2bf128";
+				SWIFT_INCLUDE_PATHS = "";
 			};
 			name = Release;
 		};
