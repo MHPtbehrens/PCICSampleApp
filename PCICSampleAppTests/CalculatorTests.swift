@@ -7,6 +7,7 @@
 //
 
 import XCTest
+@testable import PCICSampleApp
 
 class CalculatorTests: XCTestCase {
 

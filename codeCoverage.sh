@@ -48,3 +48,10 @@ xcrun \
 
 #  TEST_AFTER_BUILD=YES \
 
+slather coverage \
+    --input-format profdata \
+    --cobertura-xml \
+    --ignore "../**/*/Xcode*" \
+    --output-directory slather-report \
+    --scheme PCICSampleApp \
+    PCICSampleApp.xcodeproj
