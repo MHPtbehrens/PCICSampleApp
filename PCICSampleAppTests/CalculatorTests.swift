@@ -38,6 +38,22 @@ class CalculatorTests: XCTestCase {
         XCTAssertEqual(product,  9)
     }
 
+    func testDifference() {
+        let calculator = Calculator()
+        
+        let difference = calculator.difference(4, b:3)
+        
+        XCTAssertEqual(difference,  1)
+    }
+
+    func testDivision() {
+        let calculator = Calculator()
+        
+        let division = calculator.division(10, b:5)
+        
+        XCTAssertEqual(division,  2)
+    }
+
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measureBlock {
