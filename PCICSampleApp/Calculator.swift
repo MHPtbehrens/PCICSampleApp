@@ -15,7 +15,7 @@ public class Calculator {
     }
     
     func product(a:Int, b:Int) -> Int {
-        return a + b
+        return a * b
     }
 
 }
